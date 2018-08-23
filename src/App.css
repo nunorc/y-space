@@ -1,0 +1,184 @@
+
+h3 {
+  font-weight: 350;
+}
+
+a {
+  color: #8a8a8a;
+}
+
+a:hover {
+  color: #29abe2;
+}
+
+svg {
+  font-size: 12px;
+}
+
+.App-header {
+  background-color: #616161;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.0;
+  -webkit-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+  -moz-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+  box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+}
+
+.App-header ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+  max-width: 80%
+}
+
+.App-header li {
+  float: left;
+  display: block;
+  padding: 8px 0px;
+  min-width: 50%;
+}
+
+.App-header a {
+  text-decoration: none;
+  color: white;
+}
+
+#App-logo {
+  height: 42px;
+}
+
+#App-main {
+  max-width: 80%;
+  min-height: 100%;
+  padding: 0;
+  margin: auto;
+  padding-top: 50px;
+}
+
+#App-lead {
+  margin: 20px;
+}
+
+#App-lead p {
+  font-size: 1.6em;
+  max-width: 60%;
+  margin: auto;
+}
+
+#App-catalog {
+  margin-top: 12px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-catalog-item {
+    width: 33%;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App-catalog-inner {
+  margin: 12px;
+  min-height: 120px;
+-webkit-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+-moz-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+}
+
+.App-catalog-title {
+  margin: 0;
+  padding: 0;
+  background-color: #616161;
+  color: #fff;
+}
+
+.App-catalog-title h3 {
+  margin: 0;
+  padding: 12px 20px;
+  text-transform: uppercase;
+}
+
+.App-catalog-body {
+  padding: 12px 20px;
+}
+
+.App-catalog-body p {
+  margin: 0;
+  min-height: 60px;
+}
+
+.App-catalog-links {
+  padding: 4px;
+  font-size: 34px;
+}
+
+.App-catalog-links a {
+  color: #8a8a8a;
+}
+
+.App-catalog-links a:hover {
+  color: #29abe2;
+}
+
+.App-list {
+  list-style-type: none;
+  margin: auto;
+  padding: 0;
+}
+
+.App-list span {
+  font-weight: bold;
+}
+
+.App-2c {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.App-2c div {
+  width: 50%;
+}
+
+footer {
+  max-width: 60%;
+  margin: auto;
+  margin-top: 60px;
+}
+
+#App-last {
+  font-size: 34px;
+}
+
+#App-last img {
+  height: 28px;
+}
+
+#App-last a {
+  color: #8a8a8a;
+}
+
+#App-last a:hover {
+  color: #29abe2;
+}
+
+#App-footer {
+  border-top: 1px solid #eaecef;
+  margin-top: 12px;
+  padding: 22px 0px;
+}
+
+#App-footer img {
+  vertical-align: middle;
+}
+
+.text-center {
+  text-align: center;
+}

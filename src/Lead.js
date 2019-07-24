@@ -5,7 +5,7 @@ class Lead extends Component {
   render() {
     return (
       <div className='text-center text-white container' style={{fontSize: '1.6em', fontWeight: '400'}}>
-        <video autoPlay muted loop id="App-video">
+        <video playsInline autoPlay muted loop id="App-video">
           <source src="milky-way.mp4" type="video/mp4" />
         </video>
 
@@ -21,15 +21,21 @@ class Lead extends Component {
           </div>
         </div>
 
-        <div className="row text-uppercase" style={{paddingBottom: '10px'}}>
-          <div className="col-sm" style={{backgroundColor: '#FF9800', height: '56px', margin: '12px'}}>
-            <p style={{padding: '8px'}}>Exoplanets</p>
+        <div className="row" style={{paddingBottom: '10px'}}>
+          <div className="col-sm" style={{margin: '12px'}}>
+            <a href="exoplanets" role="button" className="btn btn-block" style={{backgroundColor: '#FF9800'}}>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.6em'}}>Exoplanets</span>
+            </a>
           </div>
-          <div className="col-sm" style={{backgroundColor: '#4caf50', height: '56px', margin: '12px'}}>
-            <p style={{padding: '8px'}}>Messier</p>
+          <div className="col-sm" style={{margin: '12px'}}>
+            <a href="messier" role="button" className="btn btn-block" style={{backgroundColor: '#4caf50'}}>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.6em'}}>Messier</span>
+            </a>
           </div>
-          <div className="col-sm" style={{backgroundColor: '#2196F3', height: '56px', margin: '12px'}}>
-            <p style={{padding: '8px'}}>API</p>
+          <div className="col-sm" style={{margin: '12px'}}>
+            <a href="api" role="button" className="btn btn-block" style={{backgroundColor: '#2196F3'}}>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.6em'}}>API</span>
+            </a>
           </div>
         </div>
 

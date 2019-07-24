@@ -1,4 +1,13 @@
 
+#App-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1; 
+}
+
 h3 {
   font-weight: 350;
 }
@@ -16,7 +25,7 @@ svg {
 }
 
 .App-header {
-  background-color: #616161;
+  background-color: #000;
   position: absolute;
   top: 0;
   left: 0;
@@ -51,7 +60,7 @@ svg {
 }
 
 #App-logo {
-  height: 42px;
+  height: 30px;
 }
 
 #App-main {
@@ -63,13 +72,9 @@ svg {
 }
 
 #App-lead {
-  margin: 20px;
-}
-
-#App-lead p {
-  font-size: 1.6em;
-  max-width: 60%;
-  margin: auto;
+  padding: 20px;
+  color: white;
+  border-top: 1px solid white;
 }
 
 #App-catalog {
@@ -87,10 +92,10 @@ svg {
 
 .App-catalog-inner {
   margin: 12px;
-  min-height: 120px;
+/*  min-height: 120px;
 -webkit-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
 -moz-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
-box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);
+box-shadow: 1px 1px 2px 1px rgba(158,158,158,1);*/
 }
 
 .App-catalog-title {

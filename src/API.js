@@ -4,9 +4,9 @@ import React, { Component } from 'react'
 class API extends Component {
   render() {
     return (
-      <div>
-        <h1>API</h1>
-        <h3>Coming soon..</h3>
+      <div className="container">
+        <h1 className="App-c3">API</h1>
+        <p>Coming soon..</p>
       </div>
     )
   }

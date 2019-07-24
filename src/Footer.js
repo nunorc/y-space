@@ -5,13 +5,17 @@ class Footer extends Component {
   render() {
     return (
       <footer>
-        <div id='App-last' className='text-center'>
-          <a href='https://github.com/orgs/y-space/dashboard'>
-            <i className="fa fa-github"></i>
-          </a>
+      <div className="container">
+        <div className="row">
+          <div className="col-sm">
+            <span className="text-muted">&copy; 2018 All rights reserved.</span>
+          </div>
+          <div className="col-sm text-right">
+            <a href='https://github.com/orgs/y-space'>
+              <i className="fa fa-github fa-lg"></i> GitHub
+            </a>
+          </div>
         </div>
-        <div id="App-footer">
-          <span>&copy; 2018 All rights reserved.</span>
         </div>
       </footer>
     )

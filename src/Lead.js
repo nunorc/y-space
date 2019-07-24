@@ -17,24 +17,24 @@ class Lead extends Component {
 
         <div className="row" style={{borderTop: '1px solid white', padding: '10px', margin: '10px'}}>
           <div className="col-sm">
-            <p>Datasets, web-services, models, tools, and other assorted resources<br/>about the universe.</p>
+            <p className="lead">Datasets, web-services, models, tools, and other assorted resources<br/>about the universe.</p>
           </div>
         </div>
 
         <div className="row" style={{paddingBottom: '10px'}}>
           <div className="col-sm" style={{margin: '12px'}}>
             <a href="exoplanets" role="button" className="btn btn-block" style={{backgroundColor: '#FF9800'}}>
-              <span className="text-uppercase" style={{color:'white', fontSize:'1.6em'}}>Exoplanets</span>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>Exoplanets</span>
             </a>
           </div>
           <div className="col-sm" style={{margin: '12px'}}>
             <a href="messier" role="button" className="btn btn-block" style={{backgroundColor: '#4caf50'}}>
-              <span className="text-uppercase" style={{color:'white', fontSize:'1.6em'}}>Messier</span>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>Messier</span>
             </a>
           </div>
           <div className="col-sm" style={{margin: '12px'}}>
             <a href="api" role="button" className="btn btn-block" style={{backgroundColor: '#2196F3'}}>
-              <span className="text-uppercase" style={{color:'white', fontSize:'1.6em'}}>API</span>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>API</span>
             </a>
           </div>
         </div>

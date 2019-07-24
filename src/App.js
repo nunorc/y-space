@@ -2,7 +2,7 @@
 import React, { Component } from 'react'
 import './App.css'
 import { Route } from 'react-router-dom'
-import Header from './Header'
+import Nav from './Nav'
 import Lead from './Lead'
 import Footer from './Footer'
 import Exoplanets from './Exoplanets'
@@ -17,17 +17,17 @@ class App extends Component {
       <div id='App-main'>
         
         <Route exact path='/' render={() => (
-          <div>
+          <main>
             <Lead />
-          </div>
+          </main>
         )}/>
 
         <Route exact path='/exoplanets' render={() => (
-          <div>
-            <Header />
+          <main>
+            <Nav />
             <Exoplanets />
             <Footer />
-          </div>
+          </main>
         )}/>
 
         <Route path='/exoplanet/:pl_id' render={(props) => (
@@ -49,7 +49,11 @@ class App extends Component {
         )}/>
         
         <Route exact path='/api' render={() => (
-          <API />
+          <main>
+            <Nav />
+            <API />
+            <Footer />
+          </main>
         )}/>
 
       </div>

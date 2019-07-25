@@ -21,7 +21,8 @@ a:hover {
 }
 
 #App-logo {
-  height: 30px;
+  height: 32px;
+  width: 24px;
 }
 
 #App-main {
@@ -54,22 +55,6 @@ a:hover {
 
 .App-2c div {
   width: 50%;
-}
-
-#App-last {
-  font-size: 34px;
-}
-
-#App-last img {
-  height: 28px;
-}
-
-#App-last a {
-  color: #8a8a8a;
-}
-
-#App-last a:hover {
-  color: #29abe2;
 }
 
 footer {

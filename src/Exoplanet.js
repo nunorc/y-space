@@ -1,6 +1,6 @@
 
 import React, { Component } from 'react'
-import { Link } from 'react-router-dom'
+//import { Link } from 'react-router-dom'
 
 class Exoplanet extends Component {
   state = {
@@ -33,18 +33,14 @@ class Exoplanet extends Component {
 
     if (item) {
       return (
-        <div className='App-catalog-item'>
-          <div className='App-catalog-inner'>
-            <div className="App-catalog-title" style={{backgroundColor: '#ff9800'}}>
-              <h3>{ planet.pl_name }</h3></div>
+        <div className='card'>
+          <div className='card-body'>
+            <h4 className="card-title">{ planet.pl_name }</h4>
             <div className='App-catalog-body'>
               Declination: { planet.dec_str }<br />
               Right ascension: { planet.ra_str }<br />
               Discovered by: { planet.pl_discmethod }<br />
               Distance: { planet.st_dist }<br />
-              <div className='App-catalog-links text-center'>
-                <Link to={`/exoplanet/${planet.pl_id}`}><i className='fa fa-rocket'></i></Link>
-              </div>
             </div>
           </div>
         </div>

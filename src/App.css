@@ -26,41 +26,15 @@ a:hover {
 }
 
 #App-main {
-  min-height: 100%;
+  /*min-height: 100%;
   padding: 0;
-  margin: auto;
-  /*padding-top: 50px;*/
-}
-
-#App-lead {
-  padding: 20px;
-  color: white;
-  border-top: 1px solid white;
-}
-
-.App-list {
-  list-style-type: none;
-  margin: auto;
-  padding: 0;
-}
-
-.App-list span {
-  font-weight: bold;
-}
-
-.App-2c {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.App-2c div {
-  width: 50%;
+  margin: auto;*/
 }
 
 footer {
   border-top: 1px solid #eaecef;
-  margin-top: 12px;
-  padding: 22px 0px;
+/*  margin-top: 12px;
+  padding: 22px 0px;*/
   background-color: #f5f5f5;
 }
 

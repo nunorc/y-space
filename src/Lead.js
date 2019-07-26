@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 class Lead extends Component {
   render() {
     return (
-      <div className='text-center text-white container' style={{fontSize: '1.6em', fontWeight: '400'}}>
+      <div className='text-center text-white container' style={{fontSize: '1.6em', fontWeight: '400', paddingTop: '4%'}}>
         <video playsInline autoPlay muted loop id="App-video">
           <source src="milky-way.mp4" type="video/mp4" />
         </video>

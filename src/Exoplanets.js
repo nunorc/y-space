@@ -27,19 +27,22 @@ class Exoplanets extends Component {
     return (
       <div className="container">
         <h1 className="App-c1">Exoplanets</h1>
-        <h2>Something</h2>
-        <p>An exoplanet (/ˈɛksoʊplænɪt/)[4] or extrasolar planet is a planet outside the Solar System. The first evidence of an exoplanet was noted in 1917, but was not recognized as such.[5] The first scientific detection of an exoplanet was in 1988; it was confirmed to be an exoplanet in 2012. The first confirmed detection occurred in 1992. As of 1 July 2019, there are 4,096 confirmed planets in 3,053 systems, with 664 systems having more than one planet.[6]</p>
-        <div id="App-catalog">
+
+        <div className="row">
           {this.state.planets.map((p) => (
+            <div key={p.pl_name} className="col-sm-4" style={{padding: '10px'}}>
             <Exoplanet
               planet = {p}
               item   = {true}
             />
+            </div>
           ))}
         </div>
-        <h3 style={{ textAlign: 'center' }}>
-          <a href="/exoplanets">Show me more</a>
-        </h3>
+
+        <h6 style={{ textAlign: 'center', padding: '20px' }}>
+          <a href="/exoplanets">Show me more ..</a>
+        </h6>
+
       </div>
     )
   }

@@ -5,7 +5,9 @@ import { Route, Switch, withRouter } from 'react-router-dom'
 import Nav from './Nav'
 import Lead from './Lead'
 import Footer from './Footer'
-import Exoplanets from './Exoplanets'
+import Datasets from './Datasets'
+import Models from './Models'
+//import Exoplanets from './Exoplanets'
 //import Exoplanet from './Exoplanet'
 //import Messiers from './Messiers'
 //import Messier from './Messier'
@@ -22,9 +24,10 @@ class App extends Component {
       return (
         <div className="d-flex flex-column h-100">
           <Nav />
-          <main className="flex-shrink-0" style={{paddingTop: '100px'}}>
+          <main className="flex-shrink-0" style={{ paddingTop: '100px' }}>
             <Switch>
-              <Route path='/exoplanets' component={Exoplanets} />
+              <Route path='/datasets' component={Datasets} />
+              <Route path='/models' component={Models} />
               <Route path='/api' component={API} />
             </Switch>
           </main>

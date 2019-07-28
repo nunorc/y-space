@@ -39,6 +39,18 @@ class Lead extends Component {
           </div>
         </div>
 
+        <div className="row" style={{paddingBottom: '10px'}}>
+          <div className="col-sm" style={{margin: '12px'}}>
+          </div>
+          <div className="col-sm" style={{margin: '12px'}}>
+            <a href="tools" role="button" className="btn btn-block" style={{backgroundColor: '#d62728'}}>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>Tools</span>
+            </a>
+          </div>
+          <div className="col-sm" style={{margin: '12px'}}>
+          </div>
+        </div>
+
         <div className="row" style={{fontSize: '1.0em', borderTop: '1px solid white', padding: '10px', margin: '10px'}}>
           <div className="col-sm">
             <a href='https://github.com/orgs/y-space/dashboard'><i style={{color: 'white', fontSize: '1.6em', padding: '10px'}} className="fa fa-github"></i></a>

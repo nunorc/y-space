@@ -54,6 +54,12 @@ footer {
   margin-bottom: 20px;
 }
 
+.App-c4 {
+  color: #d62728;
+  border-bottom: 2px solid #d62728;
+  margin-bottom: 20px;
+}
+
 .App-lead {
   font-weight: 300;
 }

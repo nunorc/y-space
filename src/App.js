@@ -12,7 +12,7 @@ import Models from './Models'
 //import Messiers from './Messiers'
 //import Messier from './Messier'
 import API from './API'
-import Tools from './Tools'
+import Resources from './Resources'
 
 class App extends Component {
   render() {
@@ -30,7 +30,7 @@ class App extends Component {
               <Route path='/datasets' component={Datasets} />
               <Route path='/models' component={Models} />
               <Route path='/api' component={API} />
-              <Route path='/tools' component={Tools} />
+              <Route path='/tools' component={Resources} />
             </Switch>
           </main>
           <Footer />

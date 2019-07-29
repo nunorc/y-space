@@ -32,22 +32,17 @@ class Lead extends Component {
               <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>Models</span>
             </a>
           </div>
+        </div>
+        <div className="row" style={{paddingBottom: '10px'}}>
+          <div className="col-sm" style={{margin: '12px'}}>
+            <a href="tools" role="button" className="btn btn-block" style={{backgroundColor: '#d62728'}}>
+              <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>Resources</span>
+            </a>
+          </div>
           <div className="col-sm" style={{margin: '12px'}}>
             <a href="api" role="button" className="btn btn-block" style={{backgroundColor: '#2196F3'}}>
               <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>API</span>
             </a>
-          </div>
-        </div>
-
-        <div className="row" style={{paddingBottom: '10px'}}>
-          <div className="col-sm" style={{margin: '12px'}}>
-          </div>
-          <div className="col-sm" style={{margin: '12px'}}>
-            <a href="tools" role="button" className="btn btn-block" style={{backgroundColor: '#d62728'}}>
-              <span className="text-uppercase" style={{color:'white', fontSize:'1.3em'}}>Tools</span>
-            </a>
-          </div>
-          <div className="col-sm" style={{margin: '12px'}}>
           </div>
         </div>
 

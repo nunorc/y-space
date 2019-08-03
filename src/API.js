@@ -64,6 +64,25 @@ class API extends Component {
       <h2 id="tess">TESS</h2>
       <p>Coming soon ..</p>
 
+      <h2 id="messier">Sunspots</h2>
+       <table class="table">
+         <tbody>
+           <tr>
+             <td colspan="2">
+               <code>http://api.y-space.pw/sunspots</code>
+             </td>
+           </tr>
+           <tr>
+             <td><code>/daily</code></td>
+             <td>Get daily number of sunspots.</td>
+           </tr>
+           <tr>
+             <td><code>/monthly</code></td>
+             <td>Get monthly average of the number of sunspots.</td>
+           </tr>
+        </tbody>
+      </table>
+
 
       </div>
     )

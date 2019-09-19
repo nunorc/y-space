@@ -33,15 +33,14 @@ class Models extends Component {
               </div>
             </div>
 
-            <div className="card invisible">
-              <img src="imgs/pulsars.jpg" className="card-img-top" alt="pulsars" />
+            <div className="card">
+              <img src="imgs/sunspots.jpg" className="card-img-top" alt="pulsars" />
               <div className="card-body">
-                <h5 className="card-title">Predicting Pulsars</h5>
-                <p className="card-text">Predicting pulsars using neural networks.</p>
+                <h5 className="card-title">Sunspots Estimator</h5>
+                <p className="card-text">Predicting monthly average of active sunspots in the Sun.</p>
               </div>
               <div className="card-footer">
-                <a href="https://medium.com/@nunorc/predicting-pulsar-stars-using-neural-networks-ecb3a527336b" className="card-link">Medium</a>
-                <a href="https://www.kaggle.com/nunorc/predicting-pulsar-stars-using-a-neural-network" className="card-link">Kernel</a>
+                <a href="https://github.com/nunorc/sunspots-estimator" className="card-link">GitHub</a>
               </div>
             </div>
 

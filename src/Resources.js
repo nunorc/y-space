@@ -5,7 +5,7 @@ class Resources extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="App-c4">Resources</h1>
+        <h1 className="App-c4">Tools</h1>
 
         <div className="card-deck">
 

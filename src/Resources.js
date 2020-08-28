@@ -22,18 +22,18 @@ class Resources extends Component {
             </div>
 
             <div className="card">
-              <img src="imgs/github.jpg" className="card-img-top" alt="messier" />
+              <img src="imgs/cpp.jpg" className="card-img-top" alt="exopl" />
               <div className="card-body">
-                <h5 className="card-title">GitHub</h5>
-                <p className="card-text">The y-space orgaztion on GitHub hosts everything.</p>
+                <h5 className="card-title">exopl</h5>
+                <p className="card-text">A command line tool to perform pipelined operations on exoplanets data in C++.</p>
               </div>
               <div className="card-footer">
-                <a href="https://github.com/y-space" className="card-link">GitHub</a>
+                <a href="https://github.com/nunorc/exopl" className="card-link">GitHub</a>
               </div>
             </div>
 
             <div className="card">
-              <img src="imgs/jupyter.jpg" className="card-img-top" alt="tess" />
+              <img src="imgs/jupyter.jpg" className="card-img-top" alt="jupyter notebooks" />
               <div className="card-body">
                 <h5 className="card-title">Jupyter Notebooks</h5>
                 <p className="card-text">Collection of jupyter notebooks with examples of use.</p>

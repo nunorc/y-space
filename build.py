@@ -32,9 +32,9 @@ def _build_page(name):
     page = pypandoc.convert_file(filename, 'html')
 
     tmpl = env.get_template('wrapper.html')
-    page = tmpl.render(base = '.', page = page)
+    page = tmpl.render(base = '../', page = page)
     tmpl = env.get_template('main.html')
-    main = tmpl.render(base = '.', main = page, page = True)
+    main = tmpl.render(base = '../', main = page, page = True)
 
     with open(os.path.join(DEST, PAGES, name+'.html'), 'w') as fout:
         fout.write(main)

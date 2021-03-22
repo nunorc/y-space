@@ -1,15 +1,18 @@
-<div class="container-fluid m-0 p-0">
-  <div class="container text-center">
-    <h1 class="mt-2">Y-Space Systems and Engineering</h1>
-    <p class="lead mb-5">A collection of notes and resources on space systems, missions, engineering, and more ...</p>
+<div class="container-fluid m-0 p-0 min-vh-100" style="background-image: url('{{ base }}/static/imgs/bg.jpg'); background-size: cover;">
+  {% include 'nav.html' %}
+
+  <div class="container-fluid text-center text-white py-3 shadow" style="background-color: #212529b8!important; border-bottom: 1px solid #ffb300;">
+    <h1 class="pt-3">Y-Space Systems and Engineering</h1>
+    <p class="lead">A collection of notes and resources on space systems,<br/>mission design, engineering, and more.</p>
+    <p class="lead"><i class="fas fa-rocket fa-2x"></i></p>
   </div>
 
-  <div class="container-fluid" style="background-image: url('{{ base }}/static/imgs/planet.jpg'); background-size: cover;">
+  <div class="container-fluid">
     <div class="container p-5">
-      <div class="row row-cols-1 row-cols-md-3 justify-content-center mt-5">
+      <div class="row row-cols-1 row-cols-md-3 justify-content-center mt-3" >
         <div class="col mb-4">
           <a class="mycard" href="{{base}}/pages/fundamentals.html">
-            <div class="card">
+            <div class="card mycardbg shadow">
               <div class="card-body">
                 <h5 class="card-title d-flex justify-content-between">Fundamentals<small><i class="fas fa-arrow-right"></i></small></h5>
                 <p class="card-text">Overview of fundamental concepts and major topics in space systems.</p>
@@ -19,9 +22,9 @@
         </div>
         <div class="col mb-4">
           <a class="mycard" href="{{base}}/pages/missions.html">
-            <div class="card">
+            <div class="card mycardbg shadow">
               <div class="card-body">
-                <h5 class="card-title d-flex justify-content-between">Missions<small><i class="fas fa-arrow-right"></i></small></h5>
+                <h5 class="card-title d-flex justify-content-between">Mission Design<small><i class="fas fa-arrow-right"></i></small></h5>
                 <p class="card-text">Space missions planning overview and main stages descrption.</p>
               </div>
             </div>
@@ -29,9 +32,9 @@
         </div>
         <div class="col mb-4">
           <a class="mycard" href="{{base}}/pages/subsystems.html">
-            <div class="card">
+            <div class="card mycardbg shadow">
               <div class="card-body">
-                <h5 class="card-title d-flex justify-content-between">Sub-Systems<small><i class="fas fa-arrow-right"></i></small></h5>
+                <h5 class="card-title d-flex justify-content-between">Spacecraft Sub-Systems<small><i class="fas fa-arrow-right"></i></small></h5>
                 <p class="card-text">Overview and description of sub-systems in a space craft.</p>
               </div>
             </div>
@@ -39,7 +42,7 @@
         </div>
         <div class="col mb-4">
           <a class="mycard" href="{{base}}/pages/rockets.html">
-            <div class="card">
+            <div class="card mycardbg shadow">
               <div class="card-body">
                 <h5 class="card-title d-flex justify-content-between">Rocket Science<small><i class="fas fa-arrow-right"></i></small></h5>
                 <p class="card-text">Rockets overview and launching considerations and planning.</p>
@@ -49,7 +52,7 @@
         </div>
         <div class="col mb-4">
           <a class="mycard" href="{{base}}/pages/orbital-mechanics.html">
-            <div class="card">
+            <div class="card mycardbg shadow">
               <div class="card-body">
                 <h5 class="card-title d-flex justify-content-between">Orbital Mechanics<small><i class="fas fa-arrow-right"></i></small></h5>
                 <p class="card-text">Motions of spacecrafts from Neton's laws of motion and gravitation.</p>

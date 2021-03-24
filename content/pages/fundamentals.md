@@ -1,7 +1,8 @@
 
 # Fundamentals of Space Systems
 
-This section introduces some fundamental space concepts and nomenclature used
-in the context of space systems.
+<p class="lead">This section introduces some fundamental space concepts and nomenclature used
+in the context of space systems.</p>
 
-TODO
+<hr />
+<p class="text-center m-3">Coming soon &trade;</p>

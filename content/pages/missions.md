@@ -1,7 +1,8 @@
 
-# Space Missions
+# Missions Design
 
-This section presents an overview on space missions planning, and
-briefly describes main stages in this process.
+<p class="lead">This section presents an overview on space missions planning, and
+briefly describes the main stages in this process.</p>
 
-TODO
+<hr />
+<p class="text-center m-3">Coming soon &trade;</p>

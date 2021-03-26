@@ -25,6 +25,19 @@ def _build_index():
     with open(os.path.join(DEST, 'index.html'), 'w') as fout:
         fout.write(home)
 
+def _build_about():
+    print('Building about')
+
+    tmpl = env.get_template('about.html')
+    about = tmpl.render(base = '.')
+    tmpl = env.get_template('wrapper.html')
+    page = tmpl.render(base = '.', page = about)
+    tmpl = env.get_template('main.html')
+    main = tmpl.render(base = '.', main = page)
+
+    with open(os.path.join(DEST, 'about.html'), 'w') as fout:
+        fout.write(main)
+
 def _build_page(name):
     print('Building page', name)
 
@@ -32,9 +45,9 @@ def _build_page(name):
     page = pypandoc.convert_file(filename, 'html')
 
     tmpl = env.get_template('wrapper.html')
-    page = tmpl.render(base = '../', page = page)
+    page = tmpl.render(base = '..', page = page)
     tmpl = env.get_template('main.html')
-    main = tmpl.render(base = '../', main = page, page = True)
+    main = tmpl.render(base = '..', main = page, page = True)
 
     with open(os.path.join(DEST, PAGES, name+'.html'), 'w') as fout:
         fout.write(main)
@@ -42,9 +55,11 @@ def _build_page(name):
 # index
 _build_index()
 
+# About
+_build_about()
+
 # pages
 for f in os.listdir(os.path.join(CONTENT, PAGES)):
     if f.endswith('.md'):
         p = f.replace('.md', '')
         _build_page(p)
-

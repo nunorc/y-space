@@ -35,7 +35,7 @@ h1,h2,h3,h4,h5 { color: #ffb300; }
   opacity: 0;
   z-index: 0;
   backface-visibility: hidden;
-  animation: image-anim 36s linear infinite 0s;
+  animation: image-anim 48s linear infinite 0s;
 }
 
 .slideshow li:nth-child(1) span {
@@ -68,13 +68,34 @@ h1,h2,h3,h4,h5 { color: #ffb300; }
   animation-delay: 30s;
 }
 
+.slideshow li:nth-child(7) span {
+  background-image: url('imgs/bg-7.jpg');
+  animation-delay: 36s;
+}
+
+.slideshow li:nth-child(8) span {
+  background-image: url('imgs/bg-8.jpg');
+  animation-delay: 42s;
+}
+
 @keyframes image-anim {
   0% {
     opacity: 0;
+    transform: scale(1.0);
     animation-timing-function: ease-in;
   }
-  8%, 100% {
+  8% {
     opacity: 1;
     animation-timing-function: ease-out;
+  }
+  17% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0;
+    transform: scale(1.10);
+  }
+  100% {
+    opacity: 0;
   }
 }

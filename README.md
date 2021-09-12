@@ -1,5 +1,5 @@
 
-# Y-Space SE Site
+# Y-Space
 
-Source application runnning at http://y-space.pw
+Source application runnning at https://nunorc.github.io/y-space/
 

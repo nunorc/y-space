@@ -1,7 +1,7 @@
 
-build: build.py templates/*html static/* content/pages/*md
+build: build.py templates/*html static/*
 	@python build.py
-	@cp -a static build/
+	@cp -a static docs/
 
 clean:
 	@rm -rf build

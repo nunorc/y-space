@@ -10,63 +10,42 @@
 </ul>
 
 <div class="container-fluid m-0 p-0 min-vh-100" style="z-index: 10;">
-  {% include 'nav.html' %}
+  {% include 'templates/nav.html' %}
 
-  <div class="container-fluid text-center text-white py-3 shadow" style="background-color: #212529b8!important; border-bottom: 1px solid #ffb300;">
-    <h1 class="pt-3">Y-Space Systems and Engineering</h1>
-    <p class="lead">A collection of notes and resources on space systems,<br/>mission design, engineering, and more.</p>
-    <p class="lead"><i class="fas fa-rocket fa-2x"></i></p>
+  <div class="container-fluid text-center text-white py-3 shadow" style="background-color: #212529b8!important; border-bottom: 1px solid #ffb300; margin-top: 56px;">
+    <h1 class="pt-2 font-vudotronic" style="font-size: 3rem;">Y-Space</h1>
+    <p class="lead pt-2 fw-light">A collection of notes and resources on space systems mission design, engineering, tools, models and more.</p>
   </div>
 
   <div class="container-fluid">
     <div class="container p-5">
       <div class="row row-cols-1 row-cols-md-3 justify-content-center mt-3" >
         <div class="col mb-4">
-          <a class="mycard" href="{{base}}/pages/fundamentals.html">
+          <a class="mycard" href="{{ root }}/fundamentals.html">
             <div class="card mycardbg shadow">
               <div class="card-body">
                 <h5 class="card-title d-flex justify-content-between">Fundamentals<small><i class="fas fa-arrow-right"></i></small></h5>
-                <p class="card-text">Overview of fundamental concepts and major topics in space systems.</p>
+                <p class="card-text fw-light">Overview of fundamental concepts and major topics in space systems.</p>
               </div>
             </div>
           </a>
         </div>
         <div class="col mb-4">
-          <a class="mycard" href="{{base}}/pages/missions.html">
+          <a class="mycard" href="{{ root }}/mission-design.html">
             <div class="card mycardbg shadow">
               <div class="card-body">
                 <h5 class="card-title d-flex justify-content-between">Mission Design<small><i class="fas fa-arrow-right"></i></small></h5>
-                <p class="card-text">Space missions planning overview and main stages descrption.</p>
+                <p class="card-text fw-light">Space missions planning overview and main stages description.</p>
               </div>
             </div>
           </a>
         </div>
         <div class="col mb-4">
-          <a class="mycard" href="{{base}}/pages/subsystems.html">
-            <div class="card mycardbg shadow">
-              <div class="card-body">
-                <h5 class="card-title d-flex justify-content-between">Sub-Systems<small><i class="fas fa-arrow-right"></i></small></h5>
-                <p class="card-text">Overview and description of sub-systems in a spacecraft.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a class="mycard" href="{{base}}/pages/rockets.html">
-            <div class="card mycardbg shadow">
-              <div class="card-body">
-                <h5 class="card-title d-flex justify-content-between">Rockets<small><i class="fas fa-arrow-right"></i></small></h5>
-                <p class="card-text">Rockets overview and launching considerations and planning.</p>
-              </div>
-            </div>
-          </a>
-        </div>
-        <div class="col mb-4">
-          <a class="mycard" href="{{base}}/pages/orbital-mechanics.html">
+          <a class="mycard" href="{{ root }}/orbital-mechanics.html">
             <div class="card mycardbg shadow">
               <div class="card-body">
                 <h5 class="card-title d-flex justify-content-between">Orbital Mechanics<small><i class="fas fa-arrow-right"></i></small></h5>
-                <p class="card-text">Motions of spacecrafts, common orbits, maneuvers and rendevouz.</p>
+                <p class="card-text fw-light">Introduction to the motion of spacecrafts, common orbits, maneuvers and rendevouz.</p>
               </div>
             </div>
           </a>

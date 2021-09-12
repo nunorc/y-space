@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href=".//static/style.css">
+  <link rel="stylesheet" href=".//static/reveal/reveal.css">
+  <link rel="stylesheet" href=".//static/reveal/theme.css" id="theme">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <title>Y-Space</title>
+  <style>
+    .twocolumn {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       grid-gap: 10px;
+    }
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" style="background-color: #212529b8!important">
+  <div class="container">
+    <a href=".//index.html" class="navbar-brand fw-lighter font-vudotronic">Y-Space</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href=".//about.html"><i class="fas fa-info-circle"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/nunorc/y-space-se"><i class="fab fa-github"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    
+
+<div class="container-fluid">
+
+    <div class="reveal" style="height: 100vh; width: 90vw; margin: auto;">
+      <div class="slides">
+
+        <section>
+            <h1>Orbital Mechanics</h1>
+            <p>Introduction to the motion of spacecrafts, common orbits, maneuvers and rendevouz.</p>
+        </section>
+
+        <section>
+            <h3>Definitions</h3>
+            <ul>
+              <li><span class="fw-bold">mass</span>: quantitive measure of inertia, or resistance to change in motion of a body</li>
+              <li><span class="fw-bold">force</span>: a vector action of one body on another</li>
+              <li><span class="fw-bold">particle</span>: a body of negligible dimensions, i.e. the dimensions
+                of the body are irrelevant to describe its' motion, or the force
+                acting on it</li>
+              <li><span class="fw-bold">rigid body</span>: a body that doens' deform, i.e. has constant mass</li>
+              <li><span class="fw-bold">vector</span>: a direction and a magnitude</li>
+              <li><span class="fw-bold">scalar</span>: a magnitude only</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Newton's Laws of Motion</h3>
+            <ol>
+                <li>...</li>
+                <li>...</li>
+                <li>...</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Newton's Law of gravitation</h3>
+            <ul>
+                <li>Two bodies with masses $m_1$ and $m_2$ attract each other with a force proportional to the product of their masses, and inversely proportional to the square distance $r$ between them:
+            \[F = G \frac{m_1 m_2}{r^2}\]</li>
+              <li>$G$ is the universal constant of gravitation</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Kepler's Laws</h3>
+            <ol>
+                <li>All planets go around the Sun in a curve move, an elliptical orbit, with the Sun at one focus of the ellipse.</li>
+                <li>A line that connects a planet to the Sun sweeps out equal areas in equal times. Planets do not go around the Sun at a uniform speed, they move faster when they are nearer the Sun and more slowly when they are farther away.</li>
+                <li>The square of the period $T$ of any planet is proportional to the cube of the semi-major axis $r$ of its orbit: $T^2 \propto r^3$</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Classical Orbital Elements</h3>
+            <div class="twocolumn">
+              <div calss="col">
+                <ul>
+                  <li>semi-major axis $a$</li>
+                  <li>eccentricity $e$:</li>
+                  <li>inclination $i$:</li>
+                  <li>right ascencion $\Omega$</li>
+                  <li>argument of perigee $\omega$</li>
+                  <li>true anomaly $\nu$</li>
+                </ul>
+              </div>
+              <div class="col">
+                <figure>
+                  <img src="static/imgs/orbits.png">
+                  <figcaption></figcaption>
+                </figure>
+              </div>
+            </div>
+        </section>
+
+        <section>
+          <h3>Hohmnan Transfer</h3>
+          <p>The Hohmnan transfer is a technique for transferring a spacecraft from one circular orbit around a central object to another circular orbit around the same object. In a nutshell the goal is to devise a elliptical orbit tangent to the initial and ending circular orbits It envolves two steps:</p>
+            <ol>
+                <li>A first $\Delta \vec{V_1}$ to ...</li>
+                <li>A second $\Delta \vec{V_2}$ to ...</li>
+            </ol>
+        </section>
+
+        <section>
+            <h3>Other Resources & References</h3>
+            <ul>
+              <li><a href="https://www.udemy.com/course/orbital-mechanics-for-engineering-students/">Introduction to Orbital Mechanics</a>  by Dr. Cherish Qualls</li>
+              <li><a href="https://www.edx.org/course/space-mission-design-and-operations">Space Mission Design and Operations</a> by EPFL.</li>
+              <li>Meriam, J. L., & Kraige, L. G. (2012). Engineering mechanics: dynamics (Vol. 2). John Wiley & Sons.</li>
+            </ul>
+        </section>
+
+      </div>
+    </div>
+
+</div>
+
+<script src=".//static/reveal/reveal.js"></script>
+<script src=".//static/reveal/menu.js"></script>
+<script src=".//static/reveal/math.js"></script>
+<script>
+    Reveal.initialize({
+        controlsLayout: 'edges',
+        slideNumber: 'c/t',
+        progress: false,
+        hash: true,
+        embedded: true,
+        plugins: [ RevealMenu, RevealMath ],
+        menu: { loadIcons: false }
+        })
+</script>
+
+
+  </body>
+</html>

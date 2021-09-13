@@ -26,9 +26,10 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-heading3-size: 1.1em;
   --r-heading4-size: 0.8em;
   --r-code-font: monospace;
-  --r-link-color: #ffb300;
+  --r-controls-link-color: #ffb300;
+  --r-link-color: #0097b3;
   --r-link-color-dark: #1a53a1;
-  --r-link-color-hover: #6ca0e8;
+  --r-link-color-hover: #006775;
   --r-selection-background-color: #98bdef;
   --r-selection-color: #fff;
 }
@@ -341,7 +342,7 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  * NAVIGATION CONTROLS
  *********************************************/
 .reveal .controls {
-  color: var(--r-link-color);
+  color: var(--r-controls-link-color);
 }
 
 /*********************************************

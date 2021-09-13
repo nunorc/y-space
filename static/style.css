@@ -17,7 +17,7 @@ h1 { color: #ffb300; font-family: vudotronic; }
 h2,h3,h4,h5 { color: #ffb300; font-family: vudotronic; }
 h2 { border-bottom: 1px solid #ffb300; }
 
-a { color: #006775; }
+a { color: #0097b3; text-decoration: none; }
 a:hover { color: #006775; }
 
 .slideshow {

@@ -19,23 +19,17 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" style="background-color: #212529b8!important">
+    <nav class="navbar navbar-expand bg-dark navbar-dark fixed-top" style="background-color: #212529b8!important; z-index: 10;">
   <div class="container">
-    <a href=".//index.html" class="navbar-brand fw-lighter font-vudotronic">Y-Space</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href=".//about.html"><i class="fas fa-info-circle"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/nunorc/y-space-se"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
-    </div>
+    <a href=".//index.html" class="navbar-brand fw-lighter font-vudotronic" style="font-size: 1rem;">Y-Space</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href=".//about.html"><i class="fas fa-info-circle"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/nunorc/y-space"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
   </div>
 </nav>
 
@@ -102,7 +96,7 @@
         hash: true,
         embedded: true,
         plugins: [ RevealMenu ],
-        menu: { loadIcons: false }
+        menu: { loadIcons: false, markers: false }
         })
 </script>
 

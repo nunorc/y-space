@@ -19,23 +19,17 @@
 </head>
 <body>
 
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" style="background-color: #212529b8!important">
+    <nav class="navbar navbar-expand bg-dark navbar-dark fixed-top" style="background-color: #212529b8!important; z-index: 10;">
   <div class="container">
-    <a href=".//index.html" class="navbar-brand fw-lighter font-vudotronic">Y-Space</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-      <ul class="navbar-nav">
-        <li class="nav-item">
-          <a class="nav-link" href=".//about.html"><i class="fas fa-info-circle"></i></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="https://github.com/nunorc/y-space-se"><i class="fab fa-github"></i></a>
-        </li>
-      </ul>
-    </div>
+    <a href=".//index.html" class="navbar-brand fw-lighter font-vudotronic" style="font-size: 1rem;">Y-Space</a>
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href=".//about.html"><i class="fas fa-info-circle"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/nunorc/y-space"><i class="fab fa-github"></i></a>
+      </li>
+    </ul>
   </div>
 </nav>
 
@@ -48,7 +42,7 @@
 
         <section>
             <h1>Orbital Mechanics</h1>
-            <p>Introduction to the motion of spacecrafts, common orbits, maneuvers and rendevouz.</p>
+            <p>Introduction to the motion of spacecrafts, common orbits and maneuvers.</p>
         </section>
 
         <section>
@@ -67,10 +61,11 @@
 
         <section>
             <h3>Newton's Laws of Motion</h3>
+            <p class="text-start">Describe the relationships between the motion of an object and the forces acting on it:</p>
             <ol>
-                <li>...</li>
-                <li>...</li>
-                <li>...</li>
+                <li>An object at rest remains at rest, and an object in motion remains in motion at constant speed and in a straight line unless acted on by an unbalanced force</li>
+                <li>The acceleration of an object depends on the mass of the object and the amount of force applied</li>
+                <li>Whenever one object exerts a force on another object, the second object exerts an equal and opposite on the first</li>
             </ol>
         </section>
 
@@ -79,7 +74,7 @@
             <ul>
                 <li>Two bodies with masses $m_1$ and $m_2$ attract each other with a force proportional to the product of their masses, and inversely proportional to the square distance $r$ between them:
             \[F = G \frac{m_1 m_2}{r^2}\]</li>
-              <li>$G$ is the universal constant of gravitation</li>
+              <li>Where, $G$ is the universal constant of gravitation</li>
             </ul>
         </section>
 
@@ -115,11 +110,20 @@
         </section>
 
         <section>
+            <h3>Low Earth Orbit</h3>
+            <ul>
+                <li>...</li>
+                <li>...</li>
+                <li>...</li>
+            </ul>
+        </section>
+
+        <section>
           <h3>Hohmnan Transfer</h3>
-          <p>The Hohmnan transfer is a technique for transferring a spacecraft from one circular orbit around a central object to another circular orbit around the same object. In a nutshell the goal is to devise a elliptical orbit tangent to the initial and ending circular orbits It envolves two steps:</p>
+          <p class="text-start">The Hohmnan transfer is a technique for transferring a spacecraft from one circular orbit around a central object to another circular orbit around the same object. In a nutshell the goal is to devise a elliptical orbit tangent to the initial and ending circular orbits It envolves two steps:</p>
             <ol>
-                <li>A first $\Delta \vec{V_1}$ to ...</li>
-                <li>A second $\Delta \vec{V_2}$ to ...</li>
+                <li>A first $\Delta \vec{V_1}$ is applied to put the spacecraft in an elliptical orbit with  ...</li>
+                <li>A second $\Delta \vec{V_2}$ is applied to circularize the orbit on the target altitude.</li>
             </ol>
         </section>
 
@@ -148,7 +152,7 @@
         hash: true,
         embedded: true,
         plugins: [ RevealMenu, RevealMath ],
-        menu: { loadIcons: false }
+        menu: { loadIcons: false, markers: false }
         })
 </script>
 

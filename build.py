@@ -19,6 +19,17 @@ def _build_index(root = './'):
     with open(os.path.join(DEST, 'index.html'), 'w') as fout:
         fout.write(home)
 
+def _build_index_dev(root = './'):
+    print('Building index dev')
+
+    tmpl = env.get_template('templates/home.dev.html')
+    home = tmpl.render(root = '.')
+    tmpl = env.get_template('templates/main.html')
+    home = tmpl.render(root = '.', main = home)
+
+    with open(os.path.join(DEST, 'index.dev.html'), 'w') as fout:
+        fout.write(home)
+
 def _build_about():
     print('Building about')
 
@@ -44,6 +55,7 @@ def _build_reveal(page, root = './'):
 
 # index
 _build_index()
+_build_index_dev()
 
 # About
 _build_about()
